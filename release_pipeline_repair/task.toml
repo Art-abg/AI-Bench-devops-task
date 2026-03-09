@@ -1,0 +1,7 @@
+[task]
+name = "release_pipeline_repair"
+difficulty = "hard"
+category = "devops"
+
+[environment.runtime]
+python = "3.12"
