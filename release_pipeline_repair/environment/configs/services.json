@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "name": "api-gateway",
+      "image": "registry.local/api-gateway",
+      "tag": "2.4.1",
+      "replicas": 3
+    },
+    {
+      "name": "billing-worker",
+      "image": "registry.local/billing-worker",
+      "tag": "1.18.0",
+      "replicas": 2
+    },
+    {
+      "name": "notification-svc",
+      "image": "registry.local/notification-svc",
+      "tag": "5.0.3",
+      "replicas": 4
+    }
+  ]
+}
